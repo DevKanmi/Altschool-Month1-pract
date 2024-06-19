@@ -1,0 +1,37 @@
+/*Element selector */
+li {
+  color: #ff00005e;
+}
+
+/*ID selector :to style specific elements in html */
+
+#foot-p {
+  color: green;
+  font-size: 20px; 
+}
+
+#foot-p :hover {
+  color: brown;
+}
+
+#foot-a :hover {
+  color: blue;
+}
+
+/*styling a particular element using the class, you use the "."*/
+.title2 {
+  font-size: 18px;
+  text-decoration: wavy;
+}
+
+.nav a{
+    margin:0px 10px;
+
+}
+header {
+    padding-left:10px;
+}
+
+#main{
+    padding-left: 20px;
+}
