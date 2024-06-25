@@ -7,23 +7,11 @@
     <link href="/assets/index.css" rel ="stylesheet">
 </head>
 <body>
-    <h1>Semantic HTML</h1>
-    <div>
-        <span>Logo</span>
-        <div>
-            <a>menu items</a>
-            <a>menu items</a>
-            <a>menu items</a>
-            <a>menu items</a>
-
-        </div>
-    </div>
-
     <header>
-        <h1>
+        <h1 style="margin: 0 10px;">
             Semantic Markup
         </h1>
-        <nav>
+        <nav class ="nav">
             <a href="">Menu items</a>
             <a href="">Menu items</a>
             <a href="">Menu items</a>
@@ -31,5 +19,22 @@
 
         </nav>
     </header>
+<section class ="grid-container">
+
+    <div class ="grid-cell">One</div>
+    <div class ="grid-cell">Two</div>
+    <div class="grid-cell">Three</div>
+
+<p><button onclick ={handleclick} id ="buton">Click me</button></p>
+
+    
+</section>
+
+<script>
+    const handleclick = ()=>{
+        console.log(Clicked)
+    }
+
+</script>
 </body>
 </html>

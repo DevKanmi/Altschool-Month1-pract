@@ -18,6 +18,10 @@ li {
   color: blue;
 }
 
+#buton {
+  color:blueviolet
+}
+
 /*styling a particular element using the class, you use the "."*/
 .title2 {
   font-size: 18px;
@@ -28,6 +32,18 @@ li {
     margin:0px 10px;
 
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  column-gap: 8px;
+}
+
+.grid-cell {
+  height:200px;
+  background-color: blanchedalmond;
+}
 header {
     padding-left:10px;
 }
@@ -36,3 +52,4 @@ header {
     padding-left: 20px;
 }
 
+ 
