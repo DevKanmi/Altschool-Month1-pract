@@ -40,9 +40,20 @@ li {
   column-gap: 8px;
 }
 
-.grid-cell {
+.grid-cell { 
   height:200px;
   background-color: blanchedalmond;
+}
+
+.flex-container {
+  display: flex;
+  gap: 15px;
+  background-color:rosybrown;
+  height: 150px;
+}
+
+.flex-cell {
+  flex: 1;
 }
 header {
     padding-left:10px;
@@ -52,4 +63,9 @@ header {
     padding-left: 20px;
 }
 
- 
+@media (max-width:400px){
+  .flex-container {
+    flex-direction:column;
+
+  }
+}
